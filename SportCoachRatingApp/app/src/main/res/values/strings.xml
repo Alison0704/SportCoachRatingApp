@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">SportCoachRatingApp</string>
+    <string name="AppName">CoachUpNow</string>
+    <string name="LoginButton">Se Connecter</string>
+    <string name="SignUpButton">S\'inscrire</string>
+    <string name="PictureDescription">This is an image for the Profile Picture</string>
+    <string name="CalculatorButton">Calculatrice</string>
+    <string name="result">0</string>
+    <string name="solution">0</string>
+    <string name="btnC" />
+    <string name="BtnOpen">(</string>
+    <string name="Btn_c">C</string>
+    <string name="Btnc">C</string>
+    <string name="BtnClosed">)</string>
+    <string name="BtnDiv">/</string>
+    <string name="Btn7">7</string>
+    <string name="Btn8">8</string>
+    <string name="Btn9">9</string>
+    <string name="BtnMul">X</string>
+    <string name="Btn4">4</string>
+    <string name="Btn5">5</string>
+    <string name="Btn_6" />
+    <string name="Btn6">6</string>
+    <string name="BtnAdd">+</string>
+    <string name="Btn1">1</string>
+    <string name="Btn2">2</string>
+    <string name="Btn3">3</string>
+    <string name="BtnSub">-</string>
+    <string name="BtnAC">AC</string>
+    <string name="Btn0">0</string>
+    <string name="BtnDot">.</string>
+    <string name="BtnEqualsTo">=</string>
+    <string name="NameDisplay">Entrez votre nom pour afficher votre nom ici.</string>
+    <string name="ProfileChage">Modifier les paramètres du profil</string>
+    <string name="backbutton">Retour à la page d\'accueil</string>
+    <string name="ChangeAddress">Changement d\'adresse</string>
+    <string name="addressDisplay">Entrez votre addresse pour afficher votre addresse ici</string>
+    <string name="promptInput">Entrez votre nom</string>
+    <string name="editName">Nom</string>
+    <string name="backToMain">Retour à la page d\'accueil</string>
+    <string name="WriteAddress">Entrez votre addresse</string>
+    <string name="WritePostalCode">Entrez votre Code Postal</string>
+    <string name="back">Retour à la page précédente</string>
+    <string name="OR">------OU------</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

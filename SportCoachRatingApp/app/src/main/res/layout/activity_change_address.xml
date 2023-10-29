@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4F4A45"
+    tools:context=".ProfileChangeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="30sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/WriteAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            android:text="@string/WriteAddress"
+            android:textColor="#FFFF" />
+
+        <EditText
+            android:id="@+id/getAddress"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:hint="Addresse"
+            android:layout_margin="15sp"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/WritePostalCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            android:text="@string/WritePostalCode"
+            android:textColor="#FFFF" />
+
+        <EditText
+            android:id="@+id/getPostalCode"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_margin="15sp"
+            android:hint="Code Postal"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:text="@string/OR"
+            android:textAlignment="center"
+            android:textColor="#FFFF"
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/btnGoogleMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:backgroundTint="#6C5F5B"
+            android:text="GoogleMap" />
+
+        <Button
+            android:id="@+id/Done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:backgroundTint="#ED7D31"
+            android:text="@string/back" />
+    </LinearLayout>
+</RelativeLayout>
